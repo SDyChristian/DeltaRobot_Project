@@ -25,7 +25,7 @@ z3 = -rf*sind(theta3);
 % Denominator
 d = (y2-y1).*x3-(y3-y1).*x2;
 
-Auxiliary variables
+%Auxiliary variables
 w1 = y1.^2 + z1.^2;
 w2 = x2.^2 + y2.^2 + z2.^2;
 w3 = x3.^2 + y3.^2 + z3.^2;
