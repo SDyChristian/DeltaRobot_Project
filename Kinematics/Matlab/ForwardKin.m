@@ -1,4 +1,6 @@
 function [x0,y0,z0] = ForwardKin(theta1,theta2,theta3)
+
+% Author: Christian Trejo SD&C
 % This function receives angular positions (thetaX) and delivers end effector positions (x0,y0,z0) 
 rf = 0.204;   % Link length attached to actuator
 re = 0.575;   % Length of passive link

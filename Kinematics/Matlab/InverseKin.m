@@ -1,4 +1,6 @@
 function theta = InverseKin(x0,y0,z0)
+
+% Author: Christian Trejo SD&C
 % This function receives end effector positions (x0,y0,z0) and delivers angular positions (thetaX) 
 rf = 0.204;   % Link length attached to actuator
 re = 0.575;   % Length of passive link
