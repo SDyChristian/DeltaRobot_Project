@@ -1,5 +1,5 @@
 % Author: Christian Trejo from SD&C
-% This algorithm converts and image into a tarjectory so delta robot can draw content image (actually a path) 
+% This algorithm converts an image into a trajectory so delta robot can draw content image (actually a path) 
 
 % End efector height for drawing (Zmin) and relocalization (Zmax)
 Zmin=-145;
