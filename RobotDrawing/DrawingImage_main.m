@@ -33,7 +33,7 @@ for a=1 : 1 : length(Tray(1,:))
     x2 = x0*cosd(120) - y0*sind(120);
     y2 = x0*sind(120) + y0*cosd(120);
      
-    % Computes angles
+    % Compute angles
     theta1 = InverseKin(x0,y0,z0);
     theta2 = InverseKin(x1,y1,z0);
     theta3 = InverseKin(x2,y2,z0);
